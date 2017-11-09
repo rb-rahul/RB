@@ -1,0 +1,172 @@
+import javax.swing.*;
+import net.miginfocom.swing.*;
+/*
+ * Created by JFormDesigner on Thu Nov 09 15:28:30 IST 2017
+ */
+
+
+
+/**
+ * @author Rahul Balaji
+ */
+public class designform1 extends JPanel {
+	public designform1() {
+		initComponents();
+	}
+
+	private void initComponents() {
+		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
+		// Generated using JFormDesigner Evaluation license - Rahul Balaji
+		textField1 = new JTextField();
+		scrollPane1 = new JScrollPane();
+		textArea1 = new JTextArea();
+		textField2 = new JTextField();
+		scrollPane2 = new JScrollPane();
+		textArea2 = new JTextArea();
+		textField4 = new JTextField();
+		textArea3 = new JTextArea();
+		radioButton1 = new JRadioButton();
+		radioButton2 = new JRadioButton();
+		textField5 = new JTextField();
+		scrollPane3 = new JScrollPane();
+		textArea4 = new JTextArea();
+		textField6 = new JTextField();
+		textField3 = new JTextField();
+		scrollPane4 = new JScrollPane();
+		textArea5 = new JTextArea();
+		button1 = new JButton();
+
+		//======== this ========
+
+		// JFormDesigner evaluation mark
+		setBorder(new javax.swing.border.CompoundBorder(
+			new javax.swing.border.TitledBorder(new javax.swing.border.EmptyBorder(0, 0, 0, 0),
+				"JFormDesigner Evaluation", javax.swing.border.TitledBorder.CENTER,
+				javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Dialog", java.awt.Font.BOLD, 12),
+				java.awt.Color.red), getBorder())); addPropertyChangeListener(new java.beans.PropertyChangeListener(){public void propertyChange(java.beans.PropertyChangeEvent e){if("border".equals(e.getPropertyName()))throw new RuntimeException();}});
+
+		setLayout(new MigLayout(
+			"hidemode 3",
+			// columns
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]",
+			// rows
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]" +
+			"[]"));
+
+		//---- textField1 ----
+		textField1.setText("Name");
+		add(textField1, "cell 2 1 7 1");
+
+		//======== scrollPane1 ========
+		{
+			scrollPane1.setViewportView(textArea1);
+		}
+		add(scrollPane1, "cell 9 1 6 1");
+
+		//---- textField2 ----
+		textField2.setText("age");
+		add(textField2, "cell 2 2 7 1");
+
+		//======== scrollPane2 ========
+		{
+			scrollPane2.setViewportView(textArea2);
+		}
+		add(scrollPane2, "cell 9 2 6 1");
+
+		//---- textField4 ----
+		textField4.setText("Gender");
+		add(textField4, "cell 2 4 6 1");
+		add(textArea3, "cell 10 4");
+
+		//---- radioButton1 ----
+		radioButton1.setText("M<");
+		add(radioButton1, "cell 11 4");
+
+		//---- radioButton2 ----
+		radioButton2.setText("F");
+		add(radioButton2, "cell 13 4");
+
+		//---- textField5 ----
+		textField5.setText("Occupation");
+		add(textField5, "cell 3 5 6 1");
+
+		//======== scrollPane3 ========
+		{
+			scrollPane3.setViewportView(textArea4);
+		}
+		add(scrollPane3, "cell 11 5 3 1");
+
+		//---- textField6 ----
+		textField6.setText("Email Address");
+		add(textField6, "cell 3 6 5 1");
+		add(textField3, "cell 7 6");
+
+		//======== scrollPane4 ========
+		{
+			scrollPane4.setViewportView(textArea5);
+		}
+		add(scrollPane4, "cell 11 6 3 1");
+
+		//---- button1 ----
+		button1.setText("Sumbit");
+		add(button1, "cell 9 10");
+		// JFormDesigner - End of component initialization  //GEN-END:initComponents
+	}
+
+	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
+	// Generated using JFormDesigner Evaluation license - Rahul Balaji
+	private JTextField textField1;
+	private JScrollPane scrollPane1;
+	private JTextArea textArea1;
+	private JTextField textField2;
+	private JScrollPane scrollPane2;
+	private JTextArea textArea2;
+	private JTextField textField4;
+	private JTextArea textArea3;
+	private JRadioButton radioButton1;
+	private JRadioButton radioButton2;
+	private JTextField textField5;
+	private JScrollPane scrollPane3;
+	private JTextArea textArea4;
+	private JTextField textField6;
+	private JTextField textField3;
+	private JScrollPane scrollPane4;
+	private JTextArea textArea5;
+	private JButton button1;
+	// JFormDesigner - End of variables declaration  //GEN-END:variables
+}
